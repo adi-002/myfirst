@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myfirst/static/css/main.8d27d20f.chunk.css",
+    "main.css": "/myfirst/static/css/main.79699e1c.chunk.css",
     "main.js": "/myfirst/static/js/main.4d0bb01b.chunk.js",
     "main.js.map": "/myfirst/static/js/main.4d0bb01b.chunk.js.map",
     "runtime-main.js": "/myfirst/static/js/runtime-main.f37040e9.js",
@@ -10,7 +10,7 @@
     "static/js/2.ecd98bb2.chunk.js.map": "/myfirst/static/js/2.ecd98bb2.chunk.js.map",
     "index.html": "/myfirst/index.html",
     "static/css/2.229ed62f.chunk.css.map": "/myfirst/static/css/2.229ed62f.chunk.css.map",
-    "static/css/main.8d27d20f.chunk.css.map": "/myfirst/static/css/main.8d27d20f.chunk.css.map",
+    "static/css/main.79699e1c.chunk.css.map": "/myfirst/static/css/main.79699e1c.chunk.css.map",
     "static/js/2.ecd98bb2.chunk.js.LICENSE.txt": "/myfirst/static/js/2.ecd98bb2.chunk.js.LICENSE.txt",
     "static/media/about2.dae8a1b5.png": "/myfirst/static/media/about2.dae8a1b5.png",
     "static/media/andriod1.63f0d55e.jpg": "/myfirst/static/media/andriod1.63f0d55e.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.f37040e9.js",
     "static/css/2.229ed62f.chunk.css",
     "static/js/2.ecd98bb2.chunk.js",
-    "static/css/main.8d27d20f.chunk.css",
+    "static/css/main.79699e1c.chunk.css",
     "static/js/main.4d0bb01b.chunk.js"
   ]
 }
