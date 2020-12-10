@@ -11,10 +11,10 @@ function Common(props) {
               <div className="d-flex">
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <h1>{props.name}
-                     <strong className="brand-name"> @d! Technical</strong>
+                    <strong className="brand-name"> @d! Technical</strong>
                   </h1>
                   <h5 className="my-3">
-                    We are the team of talented devloper making website
+                    {props.subtitle}
                   </h5>
                   <div className="mt-3">
                     <NavLink to={props.visit} className="btn-get-started">

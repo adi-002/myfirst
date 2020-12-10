@@ -6,10 +6,11 @@ function About() {
   return (
     <>
    <Common 
-     name="Welcome to About Page"
+     name="Aditya Shrivastava - creator of"
      imgsrc={Web}
      visit="/contact"
      btname="Contact Now"
+     subtitle="This website is purely based on REACT."
    />
     </>
   );

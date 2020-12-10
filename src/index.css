@@ -11,7 +11,7 @@
 }
 .navbar-brand{
     font-size: 1.9rem !important;
-    color:rgb(0, 140, 255)   !important;
+    color: rgb(0, 140, 255)   !important;
 }
 .navbar a{
     font-size: 1.3rem;
@@ -82,7 +82,7 @@
     }
 }
 .card-img-top{
-    width: 16rem;
+    width: 20.4rem;
     height: 16rem;
 }
 label{
@@ -90,29 +90,4 @@ label{
 }
 .contactbtn{
     margin-top: 12px;
-}
-/*for responsive*/
-
-@media (max-width: 991px){
-    #header{
-        height: 80vh;
-        text-align: center;
-    }
-    #header .header-img{
-        text-align: center;
-    }
-    #header .header-img img{
-        width: 60%;
-    }
-}
-
-@media (max-width: 768px){
-    #header{
-       margin-top: 20px;
-    }
-    #header .header-img{
-font-size: 28px;    }
-    #header .header-img img{
-        width: 70%;
-    }
 }

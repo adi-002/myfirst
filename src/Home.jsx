@@ -11,6 +11,7 @@ function Home() {
      imgsrc={Web}
      visit="/service"
      btname="Get Started"
+     subtitle="We are the team of talented devloper making website"
       />
     </>
   );

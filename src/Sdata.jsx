@@ -29,7 +29,7 @@ const Sdata = [
      },
      {
       imgsrc: ios,
-      title : "Ios devlopment",
+      title : "IOS devlopment",
    }
 ];
 export default Sdata;
