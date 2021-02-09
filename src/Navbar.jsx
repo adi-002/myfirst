@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import "./Navbar.css"
 
 function Navbar() {
     return (
         <>
-            <div className="container-fluid ">
+            <div className="container-fluid "> {/*container-fluid : to make the container align with pg border */}
                 <div className="row">
                     <div className="col-11 max auto">
 
@@ -26,7 +26,7 @@ function Navbar() {
                                 <span className="navbar-toggler-icon"></span>
                             </button>
 
-                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div className="collapse navbar-collapse float-end" id="navbarSupportedContent">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item active">
                                         <NavLink
@@ -54,7 +54,7 @@ function Navbar() {
                                             About
                                          </NavLink>
                                     </li>
-                                    <li className="nav-item">
+                                    <li className="nav-item float-end">
                                         <NavLink
                                             activeClassName="menu_active"
                                             className="nav-link"

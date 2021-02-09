@@ -1,0 +1,9 @@
+.card-img-top {
+  height: 200px;
+  overflow: hidden;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.card {
+  overflow: hidden;
+}

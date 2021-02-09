@@ -1,0 +1,19 @@
+.navbar {
+  background-color: white !important;
+  margin-left: 0;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: rgb(0, 140, 255) !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+}
+.navbar a:hover {
+  color: rgb(0, 140, 255) !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  color: rgb(0, 140, 255) !important;
+}

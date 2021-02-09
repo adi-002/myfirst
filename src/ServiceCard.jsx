@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
-function Card(props) {
+import "./ServiceCard.css"
+function ServiceCard(props) {
 
     return (
         <>
@@ -22,4 +22,4 @@ function Card(props) {
     );
 }
 
-export default Card;
+export default ServiceCard;

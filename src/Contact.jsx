@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import Web from "../src/images/contact.svg"
-import Common from "./Common";
+
 
 function Contact() {
   const [data, setData] = useState({
@@ -12,18 +10,18 @@ function Contact() {
 
   })
 
-  const InputEvent = (events) =>{
-    const{name,value}=events.target;
-    setData((preVal) =>{
-      return{
+  const InputEvent = (events) => {
+    const { name, value } = events.target;
+    setData((preVal) => {
+      return {
         ...preVal,
-        [name] : value,
+        [name]: value,
       }
     })
   }
   const formSubmit = (e) => {
-   e.preventDefault();
-   alert(`My name: ${data.fullname}, Mobile number: ${data.mobile} Email-id: ${data.email} and my query is ${data.message}`)
+    e.preventDefault();
+    alert(`My name: ${data.fullname}, Mobile number: ${data.mobile} Email-id: ${data.email} and my query is ${data.message}`)
   }
   return (
     <>
@@ -67,7 +65,7 @@ function Contact() {
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea
-                type="text"
+                  type="text"
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
@@ -77,10 +75,11 @@ function Contact() {
                 />
               </div>
               <div class="col-auto">
-                <button 
-                type="submit"
-                 class="btn btn-outline-primary mb-2 contactbtn">
-                 Submit your query
+                <button
+                  type="submit"
+                  class="btn btn-outline-primary mb-2 contactbtn"
+                  style={{ marginTop: "12px" }}>
+                  Submit your query
                  </button>
               </div>
             </form>

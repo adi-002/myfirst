@@ -7,29 +7,29 @@ import ios from "../src/images/ios.jpeg"
 
 
 const Sdata = [
-    {
-        imgsrc: web,
-        title : "Web devlopment",
-    },
-    {
-       imgsrc: app,
-       title : "App devlopment",
-    },
-    {
-        imgsrc: software,
-        title : "Software devlopment",
-     },
-     {
-        imgsrc: digital,
-        title : "Digital Marketing",
-     },
-     {
-        imgsrc: android,
-        title : "Android devlopment",
-     },
-     {
+   {
+      imgsrc: web,
+      title: "Web Devlopment",
+   },
+   {
+      imgsrc: app,
+      title: "Software Testing",
+   },
+   {
+      imgsrc: software,
+      title: "Data Handling",
+   },
+   {
+      imgsrc: digital,
+      title: "Digital Marketing",
+   },
+   {
+      imgsrc: android,
+      title: "Android App Devlopment",
+   },
+   {
       imgsrc: ios,
-      title : "IOS devlopment",
+      title: "IOS App Devlopment",
    }
 ];
 export default Sdata;
